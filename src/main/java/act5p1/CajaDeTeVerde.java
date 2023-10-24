@@ -1,3 +1,5 @@
+package act5p1;
+
 public class CajaDeTeVerde implements CajaDeTe{
     @Override
     public int imprimeContenido() {
