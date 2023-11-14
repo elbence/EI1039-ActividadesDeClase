@@ -1,4 +1,4 @@
-package act6p1;
+package act6p1.ej03;
 
 public class MailKnn extends GenericKnn{
     MailKnn(int n) {

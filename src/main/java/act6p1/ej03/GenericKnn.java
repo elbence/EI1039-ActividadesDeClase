@@ -1,4 +1,4 @@
-package act6p1;
+package act6p1.ej03;
 
 public abstract class GenericKnn {
     private final int n;
@@ -7,13 +7,13 @@ public abstract class GenericKnn {
     }
     public void train() {
         preparaDatos();
-        calculaDistancias();
-        encuentraVecinos();
-        seleccionaClase();
     }
     public String guess() {
         System.out.println("Infiere Clase");
-        return "Not Implemented";
+        calculaDistancias();
+        encuentraVecinos();
+        seleccionaClase();
+        return "Clase Inferida";
     }
     abstract void preparaDatos();
     abstract void calculaDistancias();
