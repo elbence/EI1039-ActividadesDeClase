@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c5890f-0f95-4ce5-bdaa-7948501b49a7" name="Changes" comment="reformat act 6.2 (ej03 own package)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej06/Classifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej06/ClassifierKmeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej06/ClassifierKnn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej06/ClassifierManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej06/ClassifierSOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej06/DemoStrategySimple.java" afterDir="false" />
+    <list default="true" id="a4c5890f-0f95-4ce5-bdaa-7948501b49a7" name="Changes" comment="add act 6.2 (ej07 code)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/Classifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierKmeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierKnn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierSOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/DemoStrategySimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/DistanceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/EuclideanDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ManhattanDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +51,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Juanjo/IdeaProjects/EI1039-ActividadesDeClase/src/main/java/act5p2",
+    "last_opened_file_path": "C:/Users/Juanjo/IdeaProjects/EI1039-ActividadesDeClase/src/main/java/act6p1/ej09",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,9 +65,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="act6p1.ej09" />
       <recent name="act6p1.ej06" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juanjo\IdeaProjects\EI1039-ActividadesDeClase\src\main\java\act6p1\ej09" />
       <recent name="C:\Users\Juanjo\IdeaProjects\EI1039-ActividadesDeClase\src\main\java\act5p2" />
       <recent name="C:\Users\Juanjo\IdeaProjects\EI1039-ActividadesDeClase\src\main\java" />
     </key>
@@ -71,7 +77,7 @@
       <recent name="act6p1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoStrategySimple">
+  <component name="RunManager" selected="Application.act6p1.ej09.DemoStrategySimple">
     <configuration name="DemoStrategySimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="act6p1.ej07.DemoStrategySimple" />
       <module name="EI1039-ActividadesDeClase" />
@@ -111,8 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="act6p1.ej09.DemoStrategySimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="act6p1.ej09.DemoStrategySimple" />
+      <module name="EI1039-ActividadesDeClase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="act6p1.ej09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.act6p1.ej09.DemoStrategySimple" />
         <item itemvalue="Application.DemoStrategySimple" />
         <item itemvalue="Application.act5p2.MainExample" />
         <item itemvalue="Application.MainExample" />
@@ -130,7 +150,7 @@
       <workItem from="1698154298879" duration="1133000" />
       <workItem from="1698682600765" duration="2682000" />
       <workItem from="1698934923581" duration="16000" />
-      <workItem from="1699897766283" duration="3630000" />
+      <workItem from="1699897766283" duration="5810000" />
     </task>
     <task id="LOCAL-00001" summary="add act 5.1 code">
       <created>1698155334793</created>
@@ -160,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699956226497</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add act 6.2 (ej07 code)">
+      <created>1699957039683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699957039683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +198,7 @@
     <MESSAGE value="add act 5.2 code" />
     <MESSAGE value="add act 6.2 code (ej4)" />
     <MESSAGE value="reformat act 6.2 (ej03 own package)" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformat act 6.2 (ej03 own package)" />
+    <MESSAGE value="add act 6.2 (ej07 code)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add act 6.2 (ej07 code)" />
   </component>
 </project>
