@@ -1,4 +1,4 @@
-package act7p2;
+package act7p2.part1;
 
 public class MoveBackwardCommand extends Command{
     public MoveBackwardCommand(BeeBot beeBot) {

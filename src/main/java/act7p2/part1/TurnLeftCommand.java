@@ -1,4 +1,4 @@
-package act7p2;
+package act7p2.part1;
 
 public class TurnLeftCommand extends Command{
     public TurnLeftCommand(BeeBot beeBot) {

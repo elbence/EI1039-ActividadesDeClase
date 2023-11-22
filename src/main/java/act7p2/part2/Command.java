@@ -1,4 +1,4 @@
-package act7p2;
+package act7p2.part2;
 
 public abstract class Command {
     private BeeBot beeBot;
