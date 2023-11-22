@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c5890f-0f95-4ce5-bdaa-7948501b49a7" name="Changes" comment="add act 6.2 (ej07 code)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/Classifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierKmeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierKnn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ClassifierSOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/DemoStrategySimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/DistanceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/EuclideanDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/act6p1/ej09/ManhattanDistance.java" afterDir="false" />
+    <list default="true" id="a4c5890f-0f95-4ce5-bdaa-7948501b49a7" name="Changes" comment="mv files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/act7p2/BeeBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act7p2/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act7p2/GoButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/act7p2/MoveForwardCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,11 +54,13 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="act7p2" />
       <recent name="act6p1.ej09" />
       <recent name="act6p1.ej06" />
     </key>

@@ -17,3 +17,19 @@ U
 %src/main/java/act5p2/MainExample.java,9\3\934b5df1d46af906e3d7b56ce7c7c451b4788629
 Y
 )src/main/java/act5p2/CajaDeTeConMail.java,6\3\63df60603b51c9c77767a83e3de5b15b86931b44
+W
+'src/main/java/act5p1/CajaDeTeVerde.java,5\6\563ca9a2f8453f54cfaab9d230740c11d84ac6fe
+X
+(src/main/java/act5p1/CajaDeTeBlanco.java,8\6\86c551bd3ae686aef3206d16506a5d627e2b4baa
+R
+"src/main/java/act5p1/CajaDeTe.java,7\e\7e7aad3762895d232d4dcb79902b1930b5cf8e25
+U
+%src/main/java/act5p1/MainExample.java,4\7\47a6c9e413e5dec2eb166d26889cc3b029953c7b
+R
+"src/main/java/act7p2/GoButton.java,6\1\61af2ca5ca8436ca5d04a3e361dd474cb36d88dd
+Q
+!src/main/java/act7p2/Command.java,5\a\5a91db11edc1ed320d933f3d384eb9d66340742a
+P
+ src/main/java/act7p2/BeeBot.java,3\7\377b6414fb1724dc474f63fa45149875b83eb767
+\
+,src/main/java/act7p2/MoveForwardCommand.java,5\3\5395e74d3691e6b72245e3aa4c61277552810f4c
